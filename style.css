@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+h1 {
+    margin: 20px 0 0 30px;
+}
+
+span {
+    font-weight: bold;
+}
+
+div {
+    color: black;
+    margin-top: 200px;
+    width: 40%;
+    background-color: gainsboro;
+    -moz-box-shadow: 10px 10px 20px 0px #656565;
+    -webkit-box-shadow: 10px 10px 20px 0px #656565;
+    -o-box-shadow: 10px 10px 20px 0px #656565;
+    box-shadow: 10px 10px 20px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=20);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+tr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+td{
+    padding: 10px;
+}
+
+input, select{
+    border-radius: 5px;
+    background-color: white;
+    color: rgba(200, 66, 27, 0.9);
+    border: 1px solid gray;
+    padding: 2px 2px 2px 5px;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+    background-color: white !important;
+    color: rgba(200, 66, 27, 0.9) !important;
+    border: 1px solid gray !important;
+}
+
+button {
+
+    display: block;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    background: #3d7a80;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font: bold 0.8em/16px Roboto, Arial, Helvetica, Geneva, sans-serif;
+
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+
+}
+
+button:hover {
+    color: rgba(0, 0, 0, 0.6);
+    background: #34696f;
+    background: -webkit-linear-gradient(top, #34696f, #2f5f63);
+    background: -moz-linear-gradient(top, #34696f, #2f5f63);
+    background: -o-linear-gradient(top, #34696f, #2f5f63);
+    background: -ms-linear-gradient(top, #34696f, #2f5f63);
+    background: linear-gradient(top, #34696f, #2f5f63);
+
+}
